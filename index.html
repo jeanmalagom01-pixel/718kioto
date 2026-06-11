@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>718Kioto</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+<h1>718Kioto</h1>
+
+<p>
+Sushi • Nigiri • Sashimi
+</p>
+
+<a href="#menu" class="btn">
+Ver Menú
+</a>
+
+</header>
+
+<section id="menu">
+
+<h2>Nuestros Especiales</h2>
+
+<div class="productos">
+
+<div class="producto">
+<h3>California Roll</h3>
+<p>$20.000</p>
+
+<button onclick="agregarProducto('California Roll',20000)">
+Agregar
+</button>
+
+</div>
+
+<div class="producto">
+<h3>Dragón Roll</h3>
+<p>$28.000</p>
+
+<button onclick="agregarProducto('Dragón Roll',28000)">
+Agregar
+</button>
+
+</div>
+
+<div class="producto">
+<h3>Nigiri de Salmón</h3>
+<p>$15.000</p>
+
+<button onclick="agregarProducto('Nigiri de Salmón',15000)">
+Agregar
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="carrito">
+
+<h2>Tu Pedido</h2>
+
+<ul id="lista-carrito"></ul>
+
+<h3>Total: $<span id="total">0</span></h3>
+
+<button onclick="enviarWhatsapp()">
+Realizar Pedido
+</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
