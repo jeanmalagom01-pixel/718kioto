@@ -58,7 +58,7 @@ function enviarWhatsapp(){
         total;
 
     window.open(
-        "https://wa.me/573001112233?text=" +
+        "https://wa.me/573041211923?text=" +
         mensaje
     );
 }
