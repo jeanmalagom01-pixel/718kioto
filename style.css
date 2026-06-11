@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.8)
+    ),
+    url("https://images.unsplash.com/photo-1579871494447-9811cf80d66c");
+    
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:5rem;
+}
+
+.hero p{
+    margin:20px;
+    font-size:1.3rem;
+}
+
+.btn{
+    background:#c1121f;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    border-radius:8px;
+}
+
+#menu{
+    padding:60px;
+}
+
+#menu h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.producto{
+    background:#1a1a1a;
+    padding:20px;
+    border-radius:12px;
+    width:250px;
+    text-align:center;
+}
+
+.producto button{
+    margin-top:15px;
+    padding:10px 15px;
+    border:none;
+    background:#c1121f;
+    color:white;
+    cursor:pointer;
+}
+
+.carrito{
+    padding:60px;
+    text-align:center;
+}
+
+.carrito button{
+    margin-top:20px;
+    padding:15px 25px;
+    border:none;
+    background:#c1121f;
+    color:white;
+    cursor:pointer;
+}
